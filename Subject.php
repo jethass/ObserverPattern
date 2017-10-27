@@ -1,5 +1,5 @@
 <?php
-class Observee implements SplSubject
+class Subject implements SplSubject
 {
   // Ceci est le tableau qui va contenir tous les objets qui nous observent.
   protected $observers = [];
